@@ -55,7 +55,7 @@ h3{
 text-align: center;
 
 }
-h2{
+h2{ -webkit-gradient(linear, left top, right top, from(#4c5e91), to(#000000));
   text-decoration: underline;
   text-decoration-color:#0d0210
 
@@ -98,6 +98,7 @@ width:=51%; margin-left: 250%
 
 }
 header {
+
     position: relative;
     display: block;
     top: 0;
@@ -105,7 +106,8 @@ header {
     margin: 20;
     padding: 0;
     width: 999px%;
-    height: 120px; /* Aqui está o erro, se coloco em % não dá certo e em px não fica responsivo */
+    height: 80px;
     background-color: #000;
     background-repeat: no-repeat;
+    background: -webkit-gradient(linear, left top, right top, from(#ffa500), to(#1e90ff));
 }
